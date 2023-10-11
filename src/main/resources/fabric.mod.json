@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "achiopt",
+  "version": "${version}",
+  "name": "AchievementOptimizer",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/bigenergy/achievement-optimizer"
+  },
+  "license": "MIT",
+  "icon": "assets/achiopt/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.bigenergy.achiopt.client.AchievementOptimizerClient"
+    ],
+    "main": [
+      "com.bigenergy.achiopt.AchievementOptimizer"
+    ]
+  },
+  "mixins": [
+    "achiopt.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
