@@ -8,3 +8,5 @@ This mod tries to fix this problem by adding skip ticks for checking achievement
 Feel free to write about all problems and suggestions on my github! Good luck!
 
 <a href="https://curseforge.com/minecraft/mc-mods/achievements-optimizer">https://curseforge.com/minecraft/mc-mods/achievements-optimizer</a>
+
+<b>MERGED TO MAIN REPO</b> https://github.com/bigenergy/achievement-optimizer
